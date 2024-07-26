@@ -1,0 +1,243 @@
+#main{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:burlywood;
+}
+ .header{
+  background-color:rgb(84, 36, 2);
+  position: fixed;
+  top: 0px;
+  width: 98.7%;
+}
+#welcome{
+  background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(3dfoodie.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%; 
+  min-height: 120vh;  
+  padding-top: 90px;   
+}
+nav{
+  height: 100px;
+}
+nav h1{
+  float:right;
+  line-height: 80px;
+  font-size: 35px;
+  font-size: inline;
+  color:white;
+}
+nav ul{
+  float:right;
+  line-height: 80px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 5px;
+  padding-right: 25px;
+}
+.pop{
+  margin-left: 50px;
+}
+nav ul li a{
+  color: #f4f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 7px 8px;
+}
+nav ul li a:hover{
+background-color:black;
+transition: 0.5s ease;
+}
+nav ul li .active{
+  background-color:chocolate;
+}
+ nav image{
+  margin-left: 60px;
+}
+.hero{
+  width: 50%;
+  margin: 7%;
+  text-align: center;
+  transform: translateY(35);
+}
+#hero h1{
+  font-family: monospace;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+#hero{
+ margin-top: 10%;
+}
+.textone{
+  text-align: center;
+  color: white;
+}
+.hero{
+  font-size: 18px;
+  color: #7e7e7e;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+#hero .btn{
+  color: #fff;
+  padding: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color:chocolate;
+}
+#hero .btn:hover{
+  background-color: #4399fa;
+  transition: 0.5s ease;
+}
+.aboutus {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  margin-top: 70px;
+  padding-top: 108px;
+}
+.chef{
+  padding: 53.2px;
+  display: inline-block;
+}
+.chef img{
+  border-radius: 20px;
+}
+.about {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+}
+.vim{
+  display: flex;
+  justify-content: space-around;
+}
+h2{
+  text-align: center;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bolognaise{
+ margin-left: 230px;
+ display: inline-block;
+}
+.bolognaise figcaption{
+  font-size: x-large;
+}
+.bolognaise img{
+  border-radius: 20px;
+}
+.macncheese{
+  display: inline-block;
+}
+.macncheese figcaption{
+  font-size: x-large;
+}
+.macncheese img{
+  border-radius: 20px;
+}
+.vongole{
+  margin-left: 230px;
+  display: inline-block;
+ }
+ .vongole figcaption{
+  font-size: x-large;
+ }
+ .vongole img{
+  border-radius: 20px;
+ }
+ .jollof{
+   display: inline-block;
+ }
+ .jollof figcaption{
+  font-size: x-large;
+ }
+ .jollof img{
+  border-radius: 20px;
+ }
+ .cater{
+  text-align: center;
+ }
+ .note{
+  text-align: center;
+ }
+ .map{
+  margin-left: 10%;
+ }
+ input{
+  width: 80%; 
+  padding: 10px;
+  margin: 3px; 
+  margin-left: 8%; 
+  /* border-radius: 2px; */
+ }
+ textarea{
+  margin-left: 8%;
+ }
+ button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  color: white;
+  background-color: chocolate;
+  width: 68%;
+  margin-left: 15%;
+ }
+ .footer{
+  min-height: 70vh;
+  width:100%;
+  /* margin-left:25px; */
+  background-color:rgb(84, 36, 2)
+ }
+ .fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+} 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.rights{
+  font-size: xx-large;
+  color: whitesmoke;
+  margin-left: 12%;
+  padding-top: 6%;
+}
+.contact{
+  margin-left: 60%;
+}
+.contact ul{
+  list-style: none; 
+}
+.contact ul li{
+  display: inline-block;
+}
